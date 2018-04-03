@@ -1,4 +1,4 @@
-# config
+# Spring-Cloud-config
 Sample Project using Spring Cloud Config
 
 Run : Config Server and the server will look up at file properties >>> https://github.com/anacondong/config-repo/blob/master/springCouldConfig.properties <br/>
