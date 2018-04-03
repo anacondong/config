@@ -16,9 +16,13 @@ public class ClientApp {
     @Value("${bar:World!}")
     String bar;
 
+    @Value("${anacondong}")
+    String anacondong;
+
+
     @RequestMapping("/")
     String hello() {
-        return "Hello " + bar + "!";
+        return "Hello " + bar + "!"+anacondong;
     }
 
     public static void main(String[] args) {
